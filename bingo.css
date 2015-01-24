@@ -1,0 +1,98 @@
+/* CSS Document */
+
+/* reset styles */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ 	padding: 0;
+ 	margin: 0;
+ 	font-size: 100%;
+ 	font-weight: normal;
+}
+table {
+	border: 0; 
+	//border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* end reset */
+
+body {
+	font: 16px Verdana, Arial, Helvetica, sans-serif;
+	margin: 25px 0 0 50px;
+	padding: 0 0 15px 0px;
+}
+th {
+	text-align: center;
+	color: #006;
+	font-size: 1.2em;
+	background-color:#FFC;
+}
+td {
+	padding: 5px;
+	text-align: center;
+	font-size: .8em;
+}
+td.tdl {
+	text-align: left !important;
+	padding: 2px 0 2px 0;
+}
+td.tdd { 
+	text-align: right !important;
+}
+td.tdh {
+	text-align: left !important;
+	padding: 2px 0 2px 0 !important;
+}
+p {
+	margin-bottom: 5px;
+	font-size: .8em;
+}
+
+a:link, a:visited {
+	color: #23488B;
+}
+
+a:hover {
+	color: #ECB414;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+}
+
+a {
+	//font-size: .8em;
+}
+
+.blue {
+	color:#23488B;
+}
+.center {
+	text-align: center;
+}
+.winningBG {
+	background-color:#900 !important;
+	text-decoration: blink;
+	color: #FFF;
+}
+#free, .pickedBG {
+	background-color: #F00;
+	color: #FFF;
+	padding: 5px 0 5px 0;
+}
+#free {
+	font-size: .6em;
+}
+.winner {
+	text-decoration: blink;
+	color: #900;
+}
+a:after { //content: url("winner.mp3") }
+
+	
